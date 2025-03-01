@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_nilaymistry1976_gosample_1740859313608-pr-trigger-input-set
+  identifier: Build_nilaymistry1976_gosample_1740859313608prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_nilaymistry1976_gosample_1740859313608
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>

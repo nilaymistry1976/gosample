@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_nilaymistry1976_gosample_1740859313608-push-trigger-input-set
+  identifier: Build_nilaymistry1976_gosample_1740859313608pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_nilaymistry1976_gosample_1740859313608
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
